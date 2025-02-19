@@ -15,8 +15,8 @@ app.use(express.json());
 app.use(morgan("dev"));
 
 
-const authRoutes = require("./Routes/auth.js");
-const streakRoutes = require("./Routes/streak.js");
+const authRoutes = require("/Routes/auth.js");
+const streakRoutes = require("/Routes/streak.js");
 
 app.use("/auth", authRoutes);
 app.use("/streak", streakRoutes); 
